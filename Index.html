@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book Hotel in Goa</title>
+    <style>
+        body{
+            background-image: url(pic/Hotel.jpg);
+           background-size: cover;
+           height: auto;
+           max-width: 100%;
+           
+        }
+        .mid{
+            margin:-105px auto;
+            display:block;
+            width: 350px;
+            cursor: pointer;
+            text-decoration: none;
+            
+        }
+        .left{
+            margin: 10px auto;
+            display: inline-block;
+            width: 160px;
+        }
+        .right{
+            display: inline-block;
+        right: 34px;
+        top: 35px;
+        
+        position: absolute;
+        border-radius: 19px;
+        }
+        .navbar{
+            display: inline-block;
+            width: 500px;
+        }
+        .navbar li {
+        display: inline-block;
+        font-size: 22px;
+        font-family: cursive;
+        margin: 5px;
+        padding:2px;
+    }
+    .btn{
+        border-radius: 10px;
+        width: 200px;
+        padding: 5px;
+    }
+    a:hover{
+       color:rgb(14, 224, 252);
+    }
+    .navbar li a{
+        text-decoration: none;
+        
+    }
+    .left img{
+        width: 158px ;
+        height: 83px;
+    }
+    .container{
+        margin: 30px 300px;
+        padding: 150px 200px;
+        width: 400px;
+    }
+    .form input {
+       text-align:center;
+       display: block;
+       margin: 7px auto;
+       padding: 10px;
+       border: 2px solid;
+       width: 50%;
+       border-radius: 15px;
+       
+    }
+    .bnn{
+        text-align: center;
+        display: block;
+        margin: 3px 95px;
+        padding:5px;
+       
+    }
+    /* h1{
+        color: chartreuse;
+        font-family: cursive;
+        font-size: 28px;
+    } */
+   
+      
+    </style>
+</head>
+<body onload="h()">
+    <div class="left">
+    <img src="pic/l.jpg" alt="">
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home </a></li>
+            <li><a href="#">About </a></li>
+            <li><a href="#">Contact Us </a></li>
+            <li><a href="#">Service </a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <input class="btn" type="text" placeholder="Search">
+    </div>
+  <div class="container">
+      <form class="form" action="active">
+          <h1>Welcome In Hotel Ganesham</h1>
+          <input type="text" placeholder="Enter your Name">
+          <input type="text" placeholder="Enter your Id No">
+          <input type="text" placeholder="Enter Mobile No">
+          <input type="text" placeholder="Enter room type ">
+          <input type="Date" placeholder="Select date ">
+          <div class="bnn"><button onclick="great()">Submit Now</button></div>
+          
+      </form>
+  </div>
+  <script>
+      function great(){
+          document.write("Thank You For Visting My Hotel");
+          document.write("<br>");
+          document.write("Have a Good Day");
+          document.write("<br>");
+          document.write("Vist Again!!");
+          document.write("<br>");
+      }
+    //   function h(){
+    //       alert("Welcome to my website");
+    //   }
+  </script>
+</body>
+</html>
